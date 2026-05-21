@@ -1,0 +1,38 @@
+.header {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  min-height: 80px;
+}
+
+.header_theme_dark {
+  position: absolute;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header_theme_light {
+  position: fixed;
+  color: #1a1b22;
+  background-color: #fff;
+  border-bottom: 1px solid #d1d2d6;
+}
+
+.header__container {
+  max-width: 1232px;
+  min-height: 80px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin: 0;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}

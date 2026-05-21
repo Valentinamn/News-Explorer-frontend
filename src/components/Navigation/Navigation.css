@@ -1,0 +1,56 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.navigation__link {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+}
+
+.navigation__link:hover {
+  opacity: 0.7;
+}
+
+.navigation__link.active {
+  border-bottom-color: currentColor;
+}
+
+.navigation__button {
+  width: 176px;
+  height: 48px;
+  border: 1px solid currentColor;
+  border-radius: 100px;
+  background-color: transparent;
+  color: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navigation__button:hover {
+  opacity: 0.7;
+}
+
+.navigation__button_type_logout {
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.navigation__logout-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}

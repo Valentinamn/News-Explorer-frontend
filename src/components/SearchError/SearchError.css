@@ -1,0 +1,17 @@
+.search-error {
+  min-height: 282px;
+  padding: 80px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f7;
+  text-align: center;
+}
+
+.search-error__message {
+  max-width: 520px;
+  margin: 0;
+  color: #b6bcbf;
+  font-size: 18px;
+  line-height: 24px;
+}

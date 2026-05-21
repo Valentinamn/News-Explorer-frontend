@@ -1,0 +1,34 @@
+.saved-news-header {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 40px 40px 56px;
+  background-color: #fff;
+}
+
+.saved-news-header__label {
+  margin: 0 0 28px;
+  color: rgba(26, 27, 34, 0.5);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.saved-news-header__title {
+  max-width: 530px;
+  margin: 0 0 30px;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+  color: #1a1b22;
+}
+
+.saved-news-header__keywords {
+  margin: 0;
+  color: #1a1b22;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.saved-news-header__keywords-bold {
+  font-weight: 700;
+}
