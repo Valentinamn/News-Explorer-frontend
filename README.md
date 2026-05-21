@@ -1,16 +1,44 @@
-# React + Vite
+📰 News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern news application built with React and Vite that allows users to explore the latest news, search for articles, and save their favorite stories for later reading.
 
-Currently, two official plugins are available:
+The project focuses on creating a clean, responsive, and user-friendly experience while practicing modern frontend development workflows and API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+🔎 Search for news articles in real time
+📰 Browse trending and latest news
+❤️ Save favorite articles
+📱 Responsive design for desktop and mobile
+⚡ Fast performance powered by Vite
+🎨 Clean and modern UI
+🛠️ Technologies Used
 
-## React Compiler
+This project was built using:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React – Frontend library for building the user interface
+Vite – Fast development environment and build tool
+JavaScript (ES6+) – Application logic
+CSS / Flexbox / Grid – Styling and responsive layouts
+News API – Fetching real-time news data
+Git & GitHub – Version control and project management
+📂 Project Structure
+src/
+ ├── components/   # Reusable UI components
+ ├── pages/        # Main application pages
+ ├── services/     # API requests
+ ├── styles/       # CSS files
+ ├── App.jsx
+ └── main.jsx
 
-## Expanding the ESLint configuration
+ 🎯 Learning Goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was created to practice:
+
+Working with APIs and asynchronous data
+State management in React
+Component-based architecture
+Responsive web design
+Modern frontend workflows with Vite
+
+👩‍💻 Author
+Created by Valentina Montoya.
